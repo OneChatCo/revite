@@ -76,16 +76,19 @@ const components = {
         font-size: 90%;
         font-family: var(--monospace-font), monospace;
 
-        border-radius: 3px;
+        border-radius: 5px;
+        padding: 3px 5px;
         box-decoration-break: clone;
     `,
     table: styled.table`
         border-collapse: collapse;
+        width: 100%;
+        table-layout: fixed;
 
         th,
         td {
             padding: 6px;
-            border: 1px solid var(--tertiary-foreground);
+            border: 0px solid var(--tertiary-foreground);
         }
     `,
     ul: styled.ul`
